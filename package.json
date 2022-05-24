@@ -2,7 +2,7 @@
   "name": "rancid-tomatillos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abumpus1.github.io/rancid-tomatillos/",
+  "homepage": "https://joshmallery.github.io/rancid-tomatillos/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
