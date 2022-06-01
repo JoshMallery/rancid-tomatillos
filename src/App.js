@@ -43,11 +43,11 @@ class App extends Component {
         {!this.state.searchResults.length && this.state.movies.length > 0 && <h2>No search results found! Please alter your search and try again.</h2>}
         <Switch>
           <Route exact path="/" render={() => <MovieCardContainer movies={this.state.searchResults}/>} />
-          <Route exact path="/:movie_id" render={ ({ match }) => {
+          <Route exact path="/:movie_id" render={({ match }) => {
             return (<SingleMovie movieId={parseInt(match.params.movie_id)}/>)
           }}
           />
-          <Route render={()=>  <h2>Looks like you took a wrong turn, click Home to go back!</h2>} />
+          <Route render={() => <h2>Looks like you took a wrong turn, click Home to go back!</h2>} />
         </Switch>
       </main>
     )
